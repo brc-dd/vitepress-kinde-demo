@@ -1,6 +1,6 @@
 import 'dotenv/config'
 import path from 'node:path'
-import express, { Request, Response } from 'express'
+import express, { type Request, type Response } from 'express'
 import cookieParser from 'cookie-parser'
 import {
   createKindeServerClient,
