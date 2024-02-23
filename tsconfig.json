@@ -5,7 +5,8 @@
     "moduleResolution": "Node16",
     "strict": true,
     "types": ["node"],
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "skipLibCheck": true
   },
   "exclude": ["node_modules"]
 }
